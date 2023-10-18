@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mega_menu_blocks",
+  "info": {
+    "singularName": "mega-menu-block",
+    "pluralName": "mega-menu-blocks",
+    "displayName": "Mega Menu Section Block",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.link",
+      "required": true
+    }
+  }
+}

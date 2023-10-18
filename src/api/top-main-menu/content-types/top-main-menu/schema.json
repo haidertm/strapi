@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_main_menus",
+  "info": {
+    "singularName": "top-main-menu",
+    "pluralName": "top-main-menus",
+    "displayName": "Top Main Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.link"
+    },
+    "hasDrawer": {
+      "type": "boolean"
+    },
+    "links": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.link"
+      ]
+    }
+  }
+}
